@@ -34,15 +34,15 @@ body{
 
 .hero-l{
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-r{
     width: 50%;
+    justify-content: flex-end;
 }
-
-
-
-
 
 
 /*  .sales
@@ -90,4 +90,21 @@ body{
     color: #2997FF;
 } 
 
+
+/* .main01-area --------------- */
+
+.main01-area h2{
+    height: 533px;
+    background: url(../img/main01.png) no-repeat center center;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.main01-area h2{
+    font-size: 58px;
+}
 
