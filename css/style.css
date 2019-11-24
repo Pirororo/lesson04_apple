@@ -1,1 +1,93 @@
 @charset "UTF-8";
+
+/* paddingを中に入れる */
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    color:#ffffff;
+    font-family: "SF Display";
+    /* 28/25=1.1    普通のサイトは1.6~1.2 */
+    line-height: 1.1;
+
+}
+
+/* .section-wrap -----------------------*/
+
+.section-wrap{
+    background-color: #111111;
+    padding: 24px;
+}
+
+/* .hero-area -----------------------*/
+.hero-area{
+    /* 横並びにする */
+    display: flex;
+    height: 673px;
+    background-color: #000000;
+
+    /* 外側に余白つける */
+    margin-bottom:24px;
+
+}
+
+.hero-l{
+    width: 50%;
+}
+
+.hero-r{
+    width: 50%;
+}
+
+
+
+
+
+
+/*  .sales
+--------------------------------*/
+ .sales{
+    text-align: center;
+}
+.sales h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+.sales h3{
+    font-size: 25px;
+    margin-bottom: 27px;
+}
+/* ここは下のsalesで使うh4 */
+.sales h4{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.sales p{
+    font-family: "SF Text";
+    font-size: 13px;
+    margin-bottom: 22px;
+}
+.sales button{
+    width: 51px;
+    height: 29px;
+    border-radius: 51px;
+    border: none;
+    background-color: #2997FF;
+    color: #ffffff;
+    margin-bottom: 13px;
+}
+.sales ul{
+    display: flex;
+    justify-content: space-between;
+    width: 197px;
+    margin: 0 auto;
+}
+.sales li{
+    font-family: "SF Text";
+    font-size: 13px;
+    color: #2997FF;
+} 
+
+
